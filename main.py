@@ -61,7 +61,14 @@ background: rgba(0,0,0,0);
 }}
 </style>
 """
-
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown('<div class="container">', unsafe_allow_html=True)
 st.markdown('<div class="logo"><img src="https://i.imgur.com/5OAGTVj.png" alt="PUP SC COSOA"></div>', unsafe_allow_html=True)  # Replace with your logo path
