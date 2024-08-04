@@ -68,6 +68,12 @@ hide_st_style = """
             header {visibility: hidden;}
             </style>
             """
+
+hide_footer_style = """
+    <style>
+    .reportview-container .main footer {visibility: hidden;}    
+    """
+st.markdown(hide_footer_style, unsafe_allow_html=True)
 st.markdown(hide_st_style, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown('<div class="container">', unsafe_allow_html=True)
