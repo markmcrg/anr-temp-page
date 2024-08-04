@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="coming soon :)", layout="centered")
+st.set_page_config(page_title="coming soon :)", page_icon="logo.png", layout="centered")
 
 # Custom CSS for styling
 st.markdown("""
