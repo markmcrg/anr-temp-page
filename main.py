@@ -62,7 +62,7 @@ background: rgba(0,0,0,0);
 
 hide_footer_style = """
     <style>
-    .reportview-container .main {visibility: hidden;}    
+    .reportview-container .main footer {visibility: hidden;}    
     """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
