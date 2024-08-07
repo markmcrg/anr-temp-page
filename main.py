@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.set_page_config(page_title="coming soon :)", page_icon="logo.png", layout="centered")
-
 # Custom CSS for styling
 st.markdown("""
     <style>
@@ -61,20 +59,12 @@ background: rgba(0,0,0,0);
 }}
 </style>
 """
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
 
 hide_footer_style = """
     <style>
-    .reportview-container .main footer {visibility: hidden;}    
+    .reportview-container .main {visibility: hidden;}    
     """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
-st.markdown(hide_st_style, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown('<div class="container">', unsafe_allow_html=True)
 st.markdown('<div class="logo"><img src="https://i.imgur.com/5OAGTVj.png" alt="PUP SC COSOA"></div>', unsafe_allow_html=True)  # Replace with your logo path
