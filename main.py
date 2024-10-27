@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.set_page_config("under maintenance :(", page_icon="logo.png", layout="wide")
 # Custom CSS for styling
 st.markdown("""
     <style>
@@ -71,6 +71,8 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown('<div class="container">', unsafe_allow_html=True)
 st.markdown('<div class="logo"><img src="https://i.imgur.com/5OAGTVj.png" alt="PUP SC COSOA"></div>', unsafe_allow_html=True)  # Replace with your logo path
-st.markdown('<h1>coming soon :)</h1>', unsafe_allow_html=True)
-st.markdown("<p>we're working hard to bring you something amazing. <a href='https://www.facebook.com/pup.sccosoa/' style='color: inherit; text-decoration: underline;'>stay tuned for updates!</a> </p>", unsafe_allow_html=True)
+st.markdown('<h1>under maintenance :(</h1>', unsafe_allow_html=True)
+st.markdown("<p>we should be back soon. <a href='https://www.facebook.com/pup.sccosoa/' style='color: inherit; text-decoration: underline;'>stay tuned for updates!</a> </p>", unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
+# sample texts: we're working hard to bring you something amazing.
+# we should be back soon.
