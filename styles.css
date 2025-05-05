@@ -1,0 +1,105 @@
+.home-text {
+    font-size: 18px;
+    text-shadow: 2px 2px 6px #2e2c2c;
+    line-height: 1.6;
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: border-box;
+    color: white;
+}
+
+.home-title {
+    font-size:70px; 
+    font-weight: 700;
+    text-shadow: 2px 2px 6px #2e2c2c;
+}
+
+.page-title {
+    font-size: 45px;
+    text-shadow: 2px 4px 6px #2e2c2c;
+    color: #f5c472;
+    font-weight: 700;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 22px;    
+}
+
+.req-btn:is(input[type=checkbox]:checked), .req-btn:is(input[type=radio]:checked),
+.req-btn:is(input[type=checkbox]:checked):hover, .req-btn:is(input[type=radio]:checked):hover {
+    border-color: white;
+    border-width: 3px;
+    background-color: maroon;
+    color: white;
+}
+
+.req-btn {
+    font-size: 15px;
+    
+}
+
+.btn-maroon {
+    background-color: maroon;
+    color:white;
+}
+
+.btn-maroon:hover {
+    background-color: #600000; /* Darker Maroon */
+}
+
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.bg-maroon {
+    background-color: maroon;
+}
+
+.bg-maroon:hover {
+    background-color: #800000;
+}
+
+.socn-column{
+    width: 1%;
+}
+
+.steps {
+    & .step-primary {
+        &+.step-primary:before, &:after, &>.step-icon {
+            --step-bg: maroon !important;
+            --step-fg: white; 
+        }
+    }
+}
+
+.checkbox-primary {
+    color: white !important;
+    --input-color: maroon !important;
+}
+
+td.clickable-row:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+}
+
+#final-decision-buttons label {
+    background-color: white;
+    color: #800000;
+    border: 1px solid #800000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#final-decision-buttons label:has(input[type="radio"]:checked) {
+    background-color: maroon;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+
+
+
